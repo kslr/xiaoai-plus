@@ -22,8 +22,8 @@
 > [!IMPORTANT]
 > 本教程仅适用于 **Xiaomi 智能音箱 Pro（OH2P）**，**其他型号**的小爱音箱请勿直接使用！🚨
 
-1. 刷机更新小爱音箱补丁固件，开启并 SSH 连接到小爱音箱 👉 [教程](https://github.com/idootop/open-xiaoai/blob/main/docs/flash.md))
-2. 开通「豆包端到端实时语音大模型」👉 [火山引擎]([packages/client-rust/README.md](https://www.volcengine.com/product/realtime-voice-model))
+1. 刷机更新小爱音箱补丁固件，开启并 SSH 连接到小爱音箱 👉 [教程](https://github.com/idootop/open-xiaoai/blob/main/docs/flash.md)
+2. 开通「豆包端到端实时语音大模型」👉 [火山引擎](https://www.volcengine.com/product/realtime-voice-model)
 3. 执行安装脚本（会自动下载并安装最新 release 到 `/data/xiaoai-plus`）
    ```sh
    curl -sSfL https://raw.githubusercontent.com/kslr/xiaoai-plus/main/install.sh | sh
