@@ -1,4 +1,4 @@
-# 🤖 xiaoai-plus
+# xiaoai-plus
 
 [![CI](https://github.com/kslr/xiaoai-plus/actions/workflows/ci.yml/badge.svg)](https://github.com/kslr/xiaoai-plus/actions/workflows/ci.yml)
 [![Release](https://img.shields.io/github/v/release/kslr/xiaoai-plus?include_prereleases)](https://github.com/kslr/xiaoai-plus/releases)
@@ -10,21 +10,21 @@
 
 ---
 
-## 📱 支持设备
+## 支持设备
 
 | 型号 | 设备代号 |
 | :--- | :--- |
 | **Xiaomi 智能音箱 Pro** | `OH2P` |
 
-## ✨ 核心特性
+## 核心特性
 
-- ⚡ **实时对话体验**：与移动端豆包一致，支持实时互动、音色定义、连续对话与随时打断。
-- 🎙️ **双助手共存**：小爱同学与豆包同学可同时运行，拥有独立的唤醒词。
-- 🏠 **纯本地运行**：程序完全在音箱本机执行，无需搭建外部中转服务器。
-- 🗣️ **自定义唤醒**：支持根据需求自定义关键词进行语音唤醒。
-- 🛠️ **远场优化**：集成 AEC（回声消除）、NS（降噪）、AGC（增益），大幅提升远场唤醒与对话的准确率。
+- **实时对话体验**：与移动端豆包一致，支持实时互动、音色定义、连续对话与随时打断。
+- **双助手共存**：小爱同学与豆包同学可同时运行，拥有独立的唤醒词。
+- **纯本地运行**：程序完全在音箱本机执行，无需搭建外部中转服务器。
+- **自定义唤醒**：支持根据需求自定义关键词进行语音唤醒。
+- **远场优化**：集成 AEC（回声消除）、NS（降噪）、AGC（增益），大幅提升远场唤醒与对话的准确率。
 
-## 📖 使用指南
+## 使用指南
 
 ### 1️⃣ 基础环境准备
 **解锁 SSH 权限：**  
@@ -33,7 +33,7 @@
 ### 2️⃣ 获取模型能力
 **开通大模型：**  
 访问火山引擎官网，开通「豆包端到端实时语音大模型」能力：  
-👉 [火山引擎产品页](https://www.volcengine.com/product/realtime-voice-model)
+[火山引擎产品页](https://www.volcengine.com/product/realtime-voice-model)
 
 ### 3️⃣ 部署程序到音箱
 
@@ -62,17 +62,17 @@ chmod +x xiaoai_plus_speaker
 
 ---
 
-## 🛠️ 高级定制
+## 高级定制
 
 - **自定义关键词**：
   1. 编辑 `assets/keywords.txt` 文件。
   2. 重新打包或直接同步到设备上测试唤醒效果。
 
-## ⚖️ 免责声明
+## 免责声明
 
 - 本项目仅供学习与研究使用，请确保在合法合规的前提下操作。
 - 本项目与小米（Xiaomi）、火山引擎（Volcengine）/ 字节跳动（ByteDance）无任何官方从属关系，相关品牌与商标归其各自权利人所有。
 
-## 🤝 致谢
+## 致谢
 
 本项目基于 [open-xiaoai](https://github.com/idootop/open-xiaoai) 修改与扩展，感谢原作者及社区的贡献。
